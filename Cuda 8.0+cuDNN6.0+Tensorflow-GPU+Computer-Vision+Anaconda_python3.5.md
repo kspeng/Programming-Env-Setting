@@ -1,6 +1,15 @@
 # CUDA8.0 + cuDNN6.0[ref](https://medium.com/codezillas/step-by-step-guide-to-install-tensorflow-gpu-on-ubuntu-18-04-lts-6feceb0df5c0c)
 ## CUDA8.0
-
+  - Download (https://developer.nvidia.com/cuda-toolkit-archive)
+  - Install
+    ```   
+    $ sudo dpkg -i cuda-repo-ubuntu1604-8-0-local-ga2_8.0.61-1_amd64.deb
+    $ sudo apt-get update
+    $ sudo apt-get install cuda
+    $ sudo nano /etc/environment
+    => PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/cuda-8.0/bin"
+    # source /etc/environment
+    ```   
   - Check Cuda Version
     ```   
     $ nvcc --version
@@ -8,6 +17,7 @@
 
 ## Cudnn6 
   - Download [Source](https://developer.nvidia.com/rdp/cudnn-archive)
+  - Install
     ```  
     $ tar zxvf cudnn-8.0-linux-x64-v5.1.tgz
     $ cd ~/src/cuda 
