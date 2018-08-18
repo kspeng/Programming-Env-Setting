@@ -46,15 +46,12 @@ $ cat /usr/local/cuda/include/cudnn.h | grep CUDNN_MAJOR -A 2
     $ sudo apt-get install python-opencv
     ```
 ## Resolve python3-tk issue
-    ```
     $ sudo apt-get install python3-tk
     $ export MPLBACKEND=agg
-    ```
 ##  Check usage
-    ```
     $ python
     >>> import tensorflow as tf
     >>> hello = tf.constant('Hello, World!')
     >>> sess = tf.Session()
     >>> print(sess.run(hello))
-    ```
+
