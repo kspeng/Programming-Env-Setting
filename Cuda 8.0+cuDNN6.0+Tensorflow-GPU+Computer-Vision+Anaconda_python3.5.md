@@ -1,4 +1,4 @@
-# CUDA8.0 + cuDNN6.0[ref](https://medium.com/codezillas/step-by-step-guide-to-install-tensorflow-gpu-on-ubuntu-18-04-lts-6feceb0df5c0c)
+# CUDA8.0 + cuDNN6.0 [ref](http://www.pradeepadiga.me/blog/2017/03/22/installing-cuda-toolkit-8-0-on-ubuntu-16-04/)
 ## CUDA8.0
   - Download (https://developer.nvidia.com/cuda-toolkit-archive)
   - Install
