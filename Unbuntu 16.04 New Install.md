@@ -46,7 +46,7 @@ A note of new Ubuntu 16.04 LTS installaton
         $ echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
         $ sudo apt-get install sublime-text
         ```        
-    - Remote Client: [Teamviewer]https://community.teamviewer.com/t5/Knowledge-Base/How-to-install-TeamViewer-on-Ubuntu/ta-p/45         
+    - Remote Client: [Teamviewer](https://community.teamviewer.com/t5/Knowledge-Base/How-to-install-TeamViewer-on-Ubuntu/ta-p/45)         
     - Cloud Drive: dropbox
         ```
         $ cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
