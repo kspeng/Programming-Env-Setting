@@ -1,6 +1,6 @@
 # CUDA8.0 + cuDNN6.0 [ref](http://www.pradeepadiga.me/blog/2017/03/22/installing-cuda-toolkit-8-0-on-ubuntu-16-04/)
 ## CUDA8.0
-  - Download (https://developer.nvidia.com/cuda-toolkit-archive)
+  - Download [Source](https://developer.nvidia.com/cuda-toolkit-archive)
   - Install
     ```   
     $ sudo dpkg -i cuda-repo-ubuntu1604-8-0-local-ga2_8.0.61-1_amd64.deb
