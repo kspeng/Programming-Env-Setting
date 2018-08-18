@@ -23,7 +23,7 @@
   - Download [Source](https://developer.nvidia.com/rdp/cudnn-archive)
   - Install
     ```  
-    $ tar zxvf cudnn-8.0-linux-x64-v5.1.tgz
+    $ tar zxvf cudnn-8.0-linux-x64-v6.0.tgz
     $ cd ~/src/cuda 
     $ sudo cp -P include/cudnn.h /usr/local/cuda-8.0/include
     $ sudo cp -P lib64/libcudnn* /usr/local/cuda-8.0/lib64
