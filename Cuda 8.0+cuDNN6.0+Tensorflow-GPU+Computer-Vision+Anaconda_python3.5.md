@@ -32,11 +32,11 @@
   - Check cuDNN Version
     ```      
     $ cat /usr/local/cuda/include/cudnn.h | grep CUDNN_MAJOR -A 2
-    #define CUDNN_MAJOR 6 
-    #define CUDNN_MINOR 0 
-    #define CUDNN_PATCHLEVEL 21 
-    -- #define CUDNN_VERSION (CUDNN_MAJOR * 1000 + CUDNN_MINOR * 100 + CUDNN_PATCHLEVEL) 
-    #include "driver_types.h"
+    > #define CUDNN_MAJOR 6 
+    > #define CUDNN_MINOR 0 
+    > #define CUDNN_PATCHLEVEL 21 
+    > -- #define CUDNN_VERSION (CUDNN_MAJOR * 1000 + CUDNN_MINOR * 100 + CUDNN_PATCHLEVEL) 
+    > #include "driver_types.h"
     ⇒ indicates that CuDNN version 6.0.21 is installed.
     ```      
 # Anaconda Python 3.5 + Tensorflow-gpu 1.4
