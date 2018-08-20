@@ -16,6 +16,10 @@ A note of new Ubuntu 16.04 LTS installaton
         ```
         $ sudo apt install gnome-control-center gnome-online-accounts
         ```
+    - Git
+        ```
+        $ sudo apt install git
+        ```
     - IME: iBus Chewing # Traditional Chinese Input
     - Snipping tool: shutter
         ```
