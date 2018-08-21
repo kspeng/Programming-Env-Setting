@@ -58,6 +58,7 @@
     $ pip install keras
     $ sudo apt-get install python-opencv
     ```
+
 ## Resolve python3-tk issue
     $ sudo apt-get install python3-tk
     $ export MPLBACKEND=agg
@@ -76,4 +77,12 @@
 ## Check installed python modules
     $ pip list
 
-
+# Tensorflow API preparation
+## Install Protoc
+  - Download latest protuf [protoc-3.6.0-linux-x86_64.zip(https://github.com/protocolbuffers/protobuf/releases/download/v3.6.0/protoc-3.6.0-linux-x86_64.zip)
+    $ sudo apt-get install protobuf-compiler 
+    $ unzip protoc-3.2.0-linux-x86_64.zip -d protoc3
+    $ cd protobuf3
+    $ sudo mv protoc3/bin/* /usr/local/bin/
+    $ sudo mv protoc3/include/* /usr/local/include/
+    $ source ~/.bashrc
