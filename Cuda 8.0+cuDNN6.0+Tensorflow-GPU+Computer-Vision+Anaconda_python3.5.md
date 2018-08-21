@@ -59,12 +59,25 @@
     $ sudo apt-get install python-opencv
     ```
 ## Resolve python3-tk issue
+    ```
     $ sudo apt-get install python3-tk
     $ export MPLBACKEND=agg
+    ```    
+## Resolve Intel MKL FATAL ERROR
+    ```
+    $ conda install nomkl numpy scipy scikit-learn numexpr
+    $ conda remove mkl mkl-service
+    ```
 ##  Check usage
+    ```
     $ python
     >>> import tensorflow as tf
     >>> hello = tf.constant('Hello, World!')
     >>> sess = tf.Session()
     >>> print(sess.run(hello))
+    ```    
+## Check installed python modules
+    ```
+    $ pip list
+    ```
 
