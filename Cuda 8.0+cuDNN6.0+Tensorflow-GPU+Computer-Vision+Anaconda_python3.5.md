@@ -58,6 +58,17 @@
     $ pip install keras
     $ sudo apt-get install python-opencv
     ```
+## Add Anaconda build into sublime
+  - Install Anaconda in sublime: Tools->Command Pallete->install package->Anaconda (enter)
+  - Create a new sublime-build: Tools->Build System -> New Build System -> conda.sublime-build
+    ```  
+    {
+      "cmd": ["/home/userid/anaconda3/bin/python3", "-u", "$file"],
+      "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+      "selector": "source.python"
+    }
+    ```
+  - Restart sublime
 
 ## Resolve python3-tk issue
     $ sudo apt-get install python3-tk
