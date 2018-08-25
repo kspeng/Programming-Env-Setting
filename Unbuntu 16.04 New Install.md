@@ -21,6 +21,9 @@ A note of new Ubuntu 16.04 LTS installaton
         $ sudo apt install git
         ```
     - IME: iBus Chewing # Traditional Chinese Input
+        ```
+        $ sudo apt-get install ibus-chewing
+        ```        
     - Snipping tool: shutter
         ```
         $ sudo apt-get install shutter
