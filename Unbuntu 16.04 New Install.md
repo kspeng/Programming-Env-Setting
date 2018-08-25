@@ -28,10 +28,7 @@ A note of new Ubuntu 16.04 LTS installaton
         ```
         $ sudo apt-get install shutter
         ```
-    - Browser: Chrome
-        ```
-        $ sudo apt-get -y install google-chrome-stable
-        ```
+    - Browser: [Chrome](https://www.google.com/intl/en-US/chrome/browser/)
     - PDF Reader: FoxitReader
         ```
         $ wget http://cdn01.foxitsoftware.com/pub/foxit/reader/desktop/linux/2.x/2.1/en_us/FoxitReader2.1.0805_Server_x64_enu_Setup.run.tar.gz
