@@ -38,10 +38,9 @@ A note of new Ubuntu 16.04 LTS installaton
         ```    
     - Image viewer: XnView
         ```    
-        $ sudo sh -c 'echo "deb http://archive.getdeb.net/ubuntu trusty-getdeb apps" >> /etc/apt/sources.list'
-        $ wget -q -O- http://archive.getdeb.net/getdeb-archive.key | sudo apt-key add -
-        $ sudo apt-get update
-        $ sudo apt-get install xnviewmp
+        $ sudo apt-get install gdebi
+        $ wget http://download.xnview.com/XnViewMP-linux-x64.deb
+        $ sudo gdebi XnViewMP-linux-x64.deb
         ```        
     - Text editor: Sublime
         ```
