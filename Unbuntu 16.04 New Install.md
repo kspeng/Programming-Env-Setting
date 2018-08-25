@@ -65,6 +65,11 @@ A note of new Ubuntu 16.04 LTS installaton
         ```        
         $ sudo apt-get install yum
         ```        
-        
+    - Install exFAT support
+        ```         
+        $ sudo apt install exfat-fuse exfat-utils
+        ```        
+       
+       
         
 
