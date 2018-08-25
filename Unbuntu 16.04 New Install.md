@@ -60,7 +60,6 @@ A note of new Ubuntu 16.04 LTS installaton
     - Cloud Drive: refer to [Google Drive](https://www.omgubuntu.co.uk/2016/08/use-google-drive-ubuntu-16-04-linux-desktops)
     - Server terminal: putty
         ```        
-        $ sudo apt update
         $ sudo apt install putty
         ```        
     - Package maintainer: yum
