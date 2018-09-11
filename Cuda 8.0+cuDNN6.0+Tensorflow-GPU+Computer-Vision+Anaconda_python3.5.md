@@ -3,12 +3,12 @@
   - Download [Source](https://developer.nvidia.com/cuda-toolkit-archive)
   - Install
     ```   
-    $ sudo dpkg -i cuda-repo-ubuntu1604-8-0-local-ga2_8.0.61-1_amd64.deb
-    $ sudo apt-get update
-    $ sudo apt-get install cuda
-    $ sudo nano /etc/environment
+    sudo dpkg -i cuda-repo-ubuntu1604-8-0-local-ga2_8.0.61-1_amd64.deb
+    sudo apt-get update
+    sudo apt-get install cuda
+    sudo nano /etc/environment
     => PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/cuda-8.0/bin"
-    # source /etc/environment
+    source /etc/environment
     ```   
   - Check Cuda Version
     ```   
@@ -23,11 +23,11 @@
   - Download [Source](https://developer.nvidia.com/rdp/cudnn-archive)
   - Install
     ```  
-    $ tar zxvf cudnn-8.0-linux-x64-v6.0.tgz
-    $ cd ~/src/cuda 
-    $ sudo cp -P include/cudnn.h /usr/local/cuda-8.0/include
-    $ sudo cp -P lib64/libcudnn* /usr/local/cuda-8.0/lib64
-    $ sudo chmod a+r /usr/local/cuda-8.0/lib64/libcudnn*		
+    tar zxvf cudnn-8.0-linux-x64-v6.0.tgz
+    cd ~/src/cuda 
+    sudo cp -P include/cudnn.h /usr/local/cuda-8.0/include
+    sudo cp -P lib64/libcudnn* /usr/local/cuda-8.0/lib64
+    sudo chmod a+r /usr/local/cuda-8.0/lib64/libcudnn*		
     ```      
   - Check cuDNN Version
     ```      
@@ -44,19 +44,19 @@
   - Doenload [Anaconda 4.2.0](https://repo.continuum.io/archive/Anaconda3-4.2.0-Linux-x86_64.sh) (python3.5.2 default)
   - Install 
     ```
-    $ bash Anaconda3-4.2.0-Linux-x86_64.sh
-    $ source ~/.bashrc
+    bash Anaconda3-4.2.0-Linux-x86_64.sh
+    source ~/.bashrc
     ```
 ## Tensorflow-gpu 1.4    
   - Install tensorflow-gpu
     ```  
-    $ easy_install -U pip
-    $ pip3 install --upgrade tensorflow-gpu==1.4
+    easy_install -U pip
+    pip3 install --upgrade tensorflow-gpu==1.4
     ``` 
   - Install related packages
     ```
-    $ pip install keras
-    $ sudo apt-get install python-opencv
+    pip install keras
+    sudo apt-get install python-opencv
     ```
 ## Add Anaconda build into sublime
   - Install Anaconda in sublime: Tools->Command Pallete->install package->Anaconda (enter)
@@ -71,12 +71,12 @@
   - Restart sublime
 
 ## Resolve python3-tk issue
-    $ sudo apt-get install python3-tk
-    $ export MPLBACKEND=agg
+    sudo apt-get install python3-tk
+    export MPLBACKEND=agg
  
 ## Resolve Intel MKL FATAL ERROR
-    $ conda install nomkl numpy scipy scikit-learn numexpr
-    $ conda remove mkl mkl-service
+    conda install nomkl numpy scipy scikit-learn numexpr
+    conda remove mkl mkl-service
 
 ##  Check usage
     $ python
@@ -102,7 +102,8 @@
 
 # Cuda Issue Debugging
 ## failed call to cuInit: CUDA_ERROR_UNKNOWN
+  - Run following instruction
     ```    
     sudo apt-get install nvidia-modprobe
     ```    
-    And then reboot.
+  - And then reboot.
