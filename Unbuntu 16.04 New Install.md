@@ -73,8 +73,8 @@ A note of new Ubuntu 16.04 LTS installaton
         ```
         sudo apt install filezilla
         ```
-    - Install Mendeley
+    - Install [Mendeley](https://www.mendeley.com/repositories/ubuntu/stable/amd64/mendeleydesktop-latest)
         ```    
-        sudo apt-get install mendeleydesktop
+        sudo dpkg -i <path-to-downloaded-package>
         ```
 
