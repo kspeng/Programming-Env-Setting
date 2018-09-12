@@ -57,7 +57,7 @@
   - Install related packages
     ```
     pip install keras
-    sudo apt-get install python-opencv
+    pip install opencv-python
     ```
 ## Add Anaconda build into sublime
   - Install Anaconda in sublime: Tools->Command Pallete->install package->Anaconda (enter)
