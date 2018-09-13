@@ -95,7 +95,6 @@
     ```
     sudo apt-get install protobuf-compiler 
     unzip protoc-3.6.1-linux-x86_64.zip -d protoc3
-    cd protobuf3
     sudo mv protoc3/bin/* /usr/local/bin/
     sudo mv protoc3/include/* /usr/local/include/
     source ~/.bashrc
