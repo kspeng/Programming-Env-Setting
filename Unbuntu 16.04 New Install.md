@@ -44,11 +44,11 @@ A note of new Ubuntu 16.04 LTS installaton
         ```        
     - Text editor: Sublime
         ```
-        sudo apt-get update
         sudo rm /var/lib/apt/lists/lock
         sudo rm /var/cache/apt/archives/lock
         wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
         echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+        sudo apt-get update        
         sudo apt-get install sublime-text
         cp /usr/share/applications/sublime_text.desktop ~/.local/share/applications/sublime_text.desktop
         sudo sed -i 's/gedit/sublime_text/g' /etc/gnome/defaults.list
