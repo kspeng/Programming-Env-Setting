@@ -44,6 +44,7 @@ A note of new Ubuntu 16.04 LTS installaton
         ```        
     - Text editor: Sublime
         ```
+        sudo apt-get update
         sudo rm /var/lib/apt/lists/lock
         sudo rm /var/cache/apt/archives/lock
         wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
