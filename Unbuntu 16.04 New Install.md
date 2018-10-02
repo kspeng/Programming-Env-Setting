@@ -80,4 +80,8 @@ A note of new Ubuntu 16.04 LTS installaton
         ```    
         sudo dpkg -i <path-to-downloaded-package>
         ```
+    - Fix Windows Partition Mount Problem
+        ```    
+        sudo ntfsfix /dev/targetdisk
+        ```    
 
