@@ -69,6 +69,9 @@
     }
     ```
   - Restart sublime
+  - Diable sublime Anaconda linting
+    Sublime > Preferences > Package Settings > Anaconda > Settings – User: 
+    {"anaconda_linting": false}
 
 ## Resolve python3-tk issue
     sudo apt-get install python3-tk
