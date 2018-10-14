@@ -16,6 +16,17 @@ A note of new Ubuntu 16.04 LTS installaton
         ```
         sudo apt install gnome-control-center gnome-online-accounts
         ```
+    - GNOME Shell
+        ```    
+        sudo apt install gnome gnome-shell
+        ```
+    - macbuntu
+        ```
+        udo add-apt-repository ppa:noobslab/macbuntu
+        sudo apt-get update
+        sudo apt-get install macbuntu-os-icons-lts-v7
+        sudo apt-get install macbuntu-os-ithemes-lts-v7        
+        ```        
     - Git
         ```
         sudo apt install git
