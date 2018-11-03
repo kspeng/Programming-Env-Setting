@@ -12,7 +12,7 @@
     ```   
   - Check Cuda Version
     ```   
-    $ nvcc --version
+    nvcc --version
     > nvcc: NVIDIA (R) Cuda compiler driver
     > Copyright (c) 2005-2016 NVIDIA Corporation
     > Built on Tue_Jan_10_13:22:03_CST_2017
@@ -31,7 +31,7 @@
     ```      
   - Check cuDNN Version
     ```      
-    $ cat /usr/local/cuda/include/cudnn.h | grep CUDNN_MAJOR -A 2
+     cat /usr/local/cuda/include/cudnn.h | grep CUDNN_MAJOR -A 2
     > #define CUDNN_MAJOR 6 
     > #define CUDNN_MINOR 0 
     > #define CUDNN_PATCHLEVEL 21 
@@ -52,6 +52,7 @@
     ```  
     easy_install -U pip
     pip3 install --upgrade tensorflow-gpu==1.4
+    export LD_LIBRARY_PATH=LD_LIBRARY_PATH:/usr/local/cuda-8.0/lib64/
     ``` 
   - Install related packages
     ```
