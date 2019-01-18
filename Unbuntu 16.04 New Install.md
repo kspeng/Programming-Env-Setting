@@ -20,6 +20,12 @@ A note of new Ubuntu 16.04 LTS installaton
         ```    
         sudo apt install gnome gnome-shell
         ```
+    - Disable GNOME animation
+        ```        
+        sudo apt install dconf-editor
+        dconf-editor
+        ```         
+        /org/gnome/desktop/interface/ and toggle the “Enable-Animations” option to OFF.
     - macbuntu
         ```
         udo add-apt-repository ppa:noobslab/macbuntu
