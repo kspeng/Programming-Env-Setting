@@ -10,6 +10,11 @@
     => PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/cuda-8.0/bin"
     source /etc/environment
     ```   
+    * "broken packages" issue solution
+    ```       
+    sudo apt-get install aptitude
+    sudo aptitude install cuda
+    ```       
   - Check Cuda Version
     ```   
     nvcc --version
