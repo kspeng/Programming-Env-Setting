@@ -1,4 +1,6 @@
- ## A quick script of Docker installation for Ubuntu-16.04 [Reference](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
+ ## Docker Installation
+ 
+ A quick script of Docker installation for Ubuntu-16.04 [Reference](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
  
  ```
     sudo apt-get update
