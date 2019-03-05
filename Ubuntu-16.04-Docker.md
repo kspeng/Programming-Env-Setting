@@ -12,3 +12,12 @@
     docker -v
     sudo docker run hello-world
 ```
+Run Docker without sudo, reboot in case not working. 
+```
+    sudo usermod -aG docker $(whoami)
+```
+Check Docker running well
+```
+    sudo systemctl status docker
+    docker runhello-world
+```
