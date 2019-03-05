@@ -2,7 +2,7 @@
  
  A quick script of Docker installation for Ubuntu-16.04 [Reference](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
 
-# CPU-Based Docker
+### CPU-Based Docker
 ```
     sudo apt-get update
     sudo apt-get install apt-transport-https ca-certificates curl software-properties-common -y
@@ -20,7 +20,7 @@
     sudo systemctl status docker
     docker runhello-world
 ```
-# GPU-Based Docker
+### GPU-Based Docker
 ```
     # If you have nvidia-docker 1.0 installed: we need to remove it and all existing GPU containers
     docker volume ls -q -f driver=nvidia-docker | xargs -r -I{} -n1 docker ps -q -a -f volume={} | xargs -r docker rm -f
@@ -40,4 +40,8 @@
 
     # Test nvidia-smi with the latest official CUDA image
     docker run --runtime=nvidia --rm nvidia/cuda:9.0-base nvidia-smi
+```
+### Run Nivida Docker
+```
+    docker run --runtime=nvidia --rm nvidia/cuda:9.0-base nvidia-sm
 ```
