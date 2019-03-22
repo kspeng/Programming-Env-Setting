@@ -39,7 +39,7 @@ sudo apt -y install libgoogle-glog-dev libgflags-dev
 sudo apt -y install libgphoto2-dev libeigen3-dev libhdf5-dev doxygen
 ```
 ## Step 3: Install Python Libraries
-    install anaconda 3.4 [link](https://github.com/kspeng/Programming-Env-Setting/blob/master/Cuda%208.0%2BcuDNN6.0%2BTensorflow-GPU%2BComputer-Vision%2BAnaconda_python3.5.md#anaconda-python-35--tensorflow-gpu-14) 
+- install anaconda 3.4 [link](https://github.com/kspeng/Programming-Env-Setting/blob/master/Cuda%208.0%2BcuDNN6.0%2BTensorflow-GPU%2BComputer-Vision%2BAnaconda_python3.5.md#anaconda-python-35--tensorflow-gpu-14) 
 
 ## Step 4: Download opencv and opencv_contrib
 ```
