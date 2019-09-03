@@ -106,7 +106,21 @@
     sudo mv protoc3/bin/* /usr/local/bin/
     sudo mv protoc3/include/* /usr/local/include/
     source ~/.bashrc
-    ```    
+    ```
+### download Tensorflow research git:
+    ```
+    git clone https://github.com/tensorflow/models.git
+    git checkout r1.8.0 # for specific version <= 1.8
+    ```
+    
+    
+## export Tensorflow slim
+  - Edit ~/.bashrc and add:
+    ```
+    export PYTHONPATH=$PYTHONPATH:<path_to_tensorflow>/models/research/:<path_to_tensorflow>/models/research/slim
+    ```
+
+
 
 # Cuda Issue Debugging
 ## failed call to cuInit: CUDA_ERROR_UNKNOWN
