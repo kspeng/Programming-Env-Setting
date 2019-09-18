@@ -52,6 +52,10 @@
     bash Anaconda3-4.2.0-Linux-x86_64.sh
     source ~/.bashrc
     ```
+## Add tqdm    
+    ```    
+    conda install -c conda-forge tqdm
+    ```    
 ## Tensorflow-gpu 1.4    
   - Install tensorflow-gpu
     ```  
