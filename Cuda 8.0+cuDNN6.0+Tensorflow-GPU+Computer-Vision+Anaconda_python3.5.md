@@ -36,7 +36,7 @@
     ```      
   - Check cuDNN Version
     ```      
-     cat /usr/local/cuda/include/cudnn.h | grep CUDNN_MAJOR -A 2
+    cat /usr/local/cuda/include/cudnn.h | grep CUDNN_MAJOR -A 2
     > #define CUDNN_MAJOR 6 
     > #define CUDNN_MINOR 0 
     > #define CUDNN_PATCHLEVEL 21 
