@@ -37,6 +37,10 @@ A note of new Ubuntu 16.04 LTS installaton
         dconf-editor
         ```         
         /org/gnome/desktop/interface/ and toggle the “Enable-Animations” option to OFF.
+    - GNOME Tweak
+        ```    
+        sudo apt install gnome-tweak-tool
+        ```        
     - macbuntu
         ```
         udo add-apt-repository ppa:noobslab/macbuntu
