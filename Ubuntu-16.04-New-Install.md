@@ -9,7 +9,7 @@ A note of new Ubuntu 16.04 LTS installaton
 2. [Installation](https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop-1604#0)    
     
 3. 18.04LTS Issues
-    - WIFI randmly disconnected
+    - WIFI randmly disconnected [ref](https://support.system76.com/articles/wireless/)
     ```
     sudo nano /etc/NetworkManager/conf.d/default-wifi-powersave-on.conf
     >> wifi.powersave = 2
