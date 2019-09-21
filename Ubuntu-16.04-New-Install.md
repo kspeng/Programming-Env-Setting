@@ -14,6 +14,10 @@ A note of new Ubuntu 16.04 LTS installaton
     sudo nano /etc/NetworkManager/conf.d/default-wifi-powersave-on.conf
     >> wifi.powersave = 2
     ```
+    - The following signatures couldn't be verified because the public key is not available
+    ```
+    sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com #APP_PUB_KEY
+    ```
 
 4. Basic Office Requirements
     ```
