@@ -43,10 +43,12 @@ A note of new Ubuntu 16.04 LTS installaton
         ```        
     - macbuntu
         ```
-        udo add-apt-repository ppa:noobslab/macbuntu
+        sudo add-apt-repository ppa:noobslab/macbuntu
         sudo apt-get update
-        sudo apt-get install macbuntu-os-icons-lts-v7
-        sudo apt-get install macbuntu-os-ithemes-lts-v7        
+        sudo apt-get install macbuntu-os-icons-lts-v9
+        sudo apt-get install macbuntu-os-ithemes-lts-v9
+        sudo apt-get install macbuntu-os-icons-v1804
+        sudo apt-get install macbuntu-os-ithemes-v1804
         ```        
     - Git
         ```
