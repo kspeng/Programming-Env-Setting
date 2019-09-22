@@ -18,6 +18,14 @@ A note of new Ubuntu 16.04 LTS installaton
     ```
     sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com #APP_PUB_KEY
     ```
+    - Connection slow issue
+    ```
+    sudo nan /etc/sysctl.conf
+    >> add followings in the bottom
+    net.ipv6.conf.all.disable_ipv6 = 1
+    net.ipv6.conf.default.disable_ipv6 = 1
+    net.ipv6.conf.lo.disable_ipv6 = 1
+    ```
 
 4. Basic Office Requirements
     ```
