@@ -38,6 +38,7 @@ A note of new Ubuntu 16.04 LTS installaton
     - GNOME Shell
         ```    
         sudo apt install gnome gnome-shell
+        sudo apt install gnome-shell-extensions
         ```
     - Disable GNOME animation
         ```        
