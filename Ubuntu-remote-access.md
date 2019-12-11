@@ -12,3 +12,18 @@ sudo apt-get install openssh-server
 ```
 ssh host-username@remote-pcs-IPv6
 ```
+
+## Create Sudo User
+* Add username
+```
+sudo adduser username
+```
+* Add user to sudo group
+```
+sudo usermod -aG sudo username
+```
+* Test sudo access
+```
+su - username
+sudo ls -la /root
+```
