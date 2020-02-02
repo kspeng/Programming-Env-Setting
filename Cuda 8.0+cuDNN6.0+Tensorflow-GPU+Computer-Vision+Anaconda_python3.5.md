@@ -8,6 +8,9 @@
     sudo apt-get install cuda
     sudo nano /etc/environment
     => PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/cuda-8.0/bin"
+    sudo nano ~/.bashrc
+    =>export PATH=/usr/local/cuda-8.0/bin${PATH:+:${PATH}}$ 
+    =>export LD_LIBRARY_PATH=/usr/local/cuda-8.0/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
     source /etc/environment
     ```   
     * "broken packages" issue solution
