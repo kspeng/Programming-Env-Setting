@@ -65,8 +65,15 @@
     ```  
     easy_install -U pip
     pip3 install --upgrade tensorflow-gpu==1.4
+    ```
+    Add followings into ~/.bashrc
     export LD_LIBRARY_PATH=LD_LIBRARY_PATH:/usr/local/cuda-8.0/lib64/
-    ``` 
+    ```
+  - Test GPU on Tensorflow
+    ```
+    import tensorflow as tf
+    print "VERSION", tf.__version__sess = tf.Session(config=tf.ConfigProto(log_device_placement=True))
+    ```
   - Install related packages
     ```
     pip install keras
