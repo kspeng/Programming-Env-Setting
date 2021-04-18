@@ -30,6 +30,7 @@
   - Solve the problem "libcusolver.so.10 not found"
     ```   
     sudo ln -s /usr/local/cuda-11.2/targets/x86_64-linux/lib/libcusolver.so.11 /usr/local/cuda-11.2/targets/x86_64-linux/lib/libcusolver.so.10
+    ln -s /usr/local/cuda/targets/x86_64-linux/lib/libcusolver.so.11 ~/anaconda3/lib/python3.8/site-packages/tensorflow/python/libcusolver.so.10
     ```   
 ## Cudnn6 
   - Download [Source](https://developer.nvidia.com/rdp/cudnn-archive)
